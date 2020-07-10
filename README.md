@@ -30,7 +30,8 @@ Please note that some versions may not be tested, so they may have bugs.
 - A x64-bits Windows version.
 
 ### Building source code:
-[![MSBuild and WiX](https://github.com/LumitoLuma/BuildXLSetup/workflows/MSBuild%20and%20WiX/badge.svg)](https://github.com/LumitoLuma/BuildXLSetup/actions?query=workflow%3A"MSBuild+and+WiX") [![Build status](https://ci.appveyor.com/api/projects/status/rjved60lof4p0sb9?svg=true)](https://ci.appveyor.com/project/LumitoLuma/BuildXLSetup)
+| [![MSBuild and WiX](https://github.com/LumitoLuma/BuildXLSetup/workflows/MSBuild%20and%20WiX/badge.svg)](https://github.com/LumitoLuma/BuildXLSetup/actions?query=workflow%3A"MSBuild+and+WiX") | [![Build status](https://ci.appveyor.com/api/projects/status/rjved60lof4p0sb9?svg=true)](https://ci.appveyor.com/project/LumitoLuma/BuildXLSetup) |
+|-|-|
 
 1. Download (or `git clone`) the latest version of the source code
 2. Open Visual Studio 2019 Developer Command Prompt in the folder location
