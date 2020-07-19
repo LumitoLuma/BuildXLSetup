@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -76,13 +76,13 @@ namespace BuildXL.Setup.BuildTasks
             return string.Join(" ", argv.Select(arg =>
             {
                 if (arg.Contains(" "))
-		{ 
-		    return $"\"{arg}\"";
-		}
-		else
-		{
-		    return arg;
-		}
+                {
+                    return $"\"{arg}\"";
+                }
+                else
+                {
+                    return arg;
+                }
             }));
         }
     }
