@@ -75,8 +75,14 @@ namespace BuildXL.Setup.BuildTasks
 
             return string.Join(" ", argv.Select(arg =>
             {
-                if (arg.Contains(" ")) return $"\"{arg}\"";
-                else return arg;
+                if (arg.Contains(" "))
+		{ 
+		    return $"\"{arg}\"";
+		}
+		else
+		{
+		    return arg;
+		}
             }));
         }
     }

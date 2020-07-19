@@ -1,6 +1,6 @@
 # BuildXL Installer
 
-## What is BuildXL Installer?
+## What is BuildXL Installer
 
 In a short way: BuildXL Installer is a WiX-based setup wizard for [BuildXL](https://github.com/microsoft/BuildXL).
 
@@ -22,26 +22,26 @@ Please note that some versions may not be tested, so they may have bugs.
 
 ## Building BuildXL Installer from source code
 
-### Requirements:
+### Requirements
 
-- Visual Studio 2019.
-- Windows Installer XML toolset (WiX toolset) version 3.11.x. ATTENTION: ANY OTHER VERSION WILL NOT WORK.
-- Windows Software Development Kit (Windows SDK).
-- A x64-bits Windows version.
+-   Visual Studio 2019.
+-   Windows Installer XML toolset (WiX toolset) version 3.11.x. ATTENTION: ANY OTHER VERSION WILL NOT WORK.
+-   Windows Software Development Kit (Windows SDK).
+-   A x64-bits Windows version.
 
-### Building source code:
+### Building source code
 | [![MSBuild and WiX](https://github.com/LumitoLuma/BuildXLSetup/workflows/MSBuild%20and%20WiX/badge.svg)](https://github.com/LumitoLuma/BuildXLSetup/actions?query=workflow%3A"MSBuild+and+WiX") | [![Build status](https://ci.appveyor.com/api/projects/status/rjved60lof4p0sb9?svg=true)](https://ci.appveyor.com/project/LumitoLuma/BuildXLSetup) |
 |-|-|
 
-1. Download (or `git clone`) the latest version of the source code
-2. Open Visual Studio 2019 Developer Command Prompt in the folder location
-3. '`cd src`' and run `nuget restore`
-4. After that, run `msbuild /m`
-5. Wait a few minutes...
-6. Done! Check BuildXL.Setup\bin\x64\Debug folder.
+1.  Download (or `git clone`) the latest version of the source code
+2.  Open Visual Studio 2019 Developer Command Prompt in the folder location
+3.  '`cd src`' and run `nuget restore`
+4.  After that, run `msbuild /m`
+5.  Wait a few minutes...
+6.  Done! Check BuildXL.Setup\bin\x64\Debug folder.
 
 ## Contributing
 
 If you want to contribute to the source code, please fork this repository, make the changes you want and then, create a pull request.
 
-#### © 2019-2020, William Kent (some modifications made by [Lumito](https://github.com/LumitoLuma))
+**© 2019-2020, William Kent (some modifications made by [Lumito](https://github.com/LumitoLuma))**
