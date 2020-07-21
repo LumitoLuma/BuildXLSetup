@@ -1,0 +1,19 @@
+name: NMake and WiX
+
+on:
+  push:
+    branches: [ nmake ]
+  pull_request:
+    branches: [ nmake ]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Enable Developer Command Prompt
+      uses: ilammy/msvc-dev-cmd@v1.3.0
+    - name: Run NMake
+      run: pushd src && nmake.exe

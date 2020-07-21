@@ -42,6 +42,6 @@ Please note that some versions may not be tested, so they may have bugs.
 
 ## Contributing
 
-If you want to contribute to the source code, please fork this repository, make the changes you want and then, create a pull request.
+If you want to contribute to the source code, please fork this repository, make the changes you want and finally, create a pull request.
 
 **© 2019-2020, William Kent (some modifications made by [Lumito](https://github.com/LumitoLuma))**
