@@ -30,7 +30,7 @@ Please note that some versions may not be tested, so they may have bugs.
 -   A x64-bits Windows version.
 
 ### Building source code
-| [![MSBuild and WiX](https://github.com/wjk/BuildXLSetup/workflows/MSBuild%20and%20WiX/badge.svg)](https://github.com/LumitoLuma/BuildXLSetup/actions?query=workflow%3A"MSBuild+and+WiX") |
+| [![MSBuild and WiX](https://github.com/wjk/BuildXLSetup/workflows/MSBuild%20and%20WiX/badge.svg)](https://github.com/wjk/BuildXLSetup/actions?query=workflow%3A"MSBuild+and+WiX") |
 |:-:|
 
 1.  Download (or `git clone`) the latest version of the source code
