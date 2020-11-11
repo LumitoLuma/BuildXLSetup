@@ -12,7 +12,7 @@
   <PropertyGroup>
     <BxlNuGetFeed>https://pkgs.dev.azure.com/ms/BuildXL/_packaging/BuildXL/nuget/v3/index.json</BxlNuGetFeed>
     <BxlNuGetPackageName>Microsoft.BuildXL.win-x64</BxlNuGetPackageName>
-    <BxlNuGetVersion>0.1.0-20200717.1</BxlNuGetVersion>
+    <BxlNuGetVersion>0.1.0-20201107.0</BxlNuGetVersion>
 
     <DefineConstants>
       BxlNuGetDir=$(IntermediateOutputPath)BxlNuGet\$(BxlNuGetPackageName).$(BxlNuGetVersion);
