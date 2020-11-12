@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Build.Framework" Version="16.7.*" />
+    <PackageReference Include="Microsoft.Build.Framework" Version="16.8.*" />
     <PackageReference Include="Microsoft.Build.Utilities.Core" Version="16.7.*" />
 
     <PackageReference Include="NuGet.CommandLine" Version="5.7.0" GeneratePathProperty="true" />
