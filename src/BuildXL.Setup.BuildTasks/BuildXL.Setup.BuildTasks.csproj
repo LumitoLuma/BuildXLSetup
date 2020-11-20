@@ -8,7 +8,7 @@
     <PackageReference Include="Microsoft.Build.Framework" Version="16.8.*" />
     <PackageReference Include="Microsoft.Build.Utilities.Core" Version="16.8.*" />
 
-    <PackageReference Include="NuGet.CommandLine" Version="5.7.0" GeneratePathProperty="true" />
+    <PackageReference Include="NuGet.CommandLine" Version="5.8.0" GeneratePathProperty="true" />
   </ItemGroup>
 
   <ItemGroup>
