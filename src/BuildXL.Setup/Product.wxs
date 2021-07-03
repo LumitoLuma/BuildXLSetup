@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?define UpgradeCode="ABEA3314-D80D-4A6C-A55D-4DD6FEAC913B"?>
-<?define Version="0.1.21107.0"?>
+<?define Version="0.1.2106.045"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
   <Product Id="*" Name="BuildXL" Language="1033" Version="$(var.Version)" Manufacturer="Microsoft Corporation" UpgradeCode="$(var.UpgradeCode)">
     <Package InstallerVersion="500" Compressed="yes" InstallScope="perMachine" />
